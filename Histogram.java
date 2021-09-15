@@ -8,7 +8,7 @@
 
 //     idx = 0
 //     for num in count:
-//         print(idx, " occurred", num, " times.")
+//         print(idx, " occurred ", num, " times.")
 //         idx += 1
 
 import java.util.Scanner;
@@ -44,7 +44,7 @@ public class Histogram {
 
         idx = 0;
         for(int i : count) {
-            System.out.println(idx + " occurred" + i + " times.");
+            System.out.println(idx + " occurred " + i + " times.");
             idx++;
         }
     }
