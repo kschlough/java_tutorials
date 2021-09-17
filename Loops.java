@@ -23,6 +23,21 @@ public class Loops {
         }
 
     // for x,y in zip(range(10),range(0,20,2))
+    // this is what the python yields:
+        //     >>> for x, y in zip(range(10),range(0,20,2)):
+        // ...     print(x, y)
+        // ... 
+        // 0 0
+        // 1 2
+        // 2 4
+        // 3 6
+        // 4 8
+        // 5 10
+        // 6 12
+        // 7 14
+        // 8 16
+        // 9 18
+        // >>> 
         System.out.print("for x,y in zip(range(10),range(0,20,2)): ");
         // separate statements in the same clause with ,]
     }
