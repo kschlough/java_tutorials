@@ -40,6 +40,7 @@ public class Loops {
         // >>> 
         System.out.print("for x,y in zip(range(10),range(0,20,2)): ");
         // separate statements in the same clause with ,]
+        
     }
 
 }
